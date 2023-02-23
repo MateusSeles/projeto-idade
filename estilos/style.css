@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root {
+    --fonte1: 'Sriracha', cursive;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.532);
+    font: normal 15px Arial;
+    background-attachment: fixed;
+    background-image: url(../imagens/pexels-pixabay-532168.jpg);
+    background-position: center ;
+    
+}
+
+header {
+    color: rgb(251, 255, 138);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+    font-family: var(--fonte1);
+}
+
+h2{
+    color: rgb(23, 10, 100);
+    font-family: var(--fonte1);
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 1px 1px black;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+
+footer {
+    margin-top: 350px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+}
+
+a {
+    color: rgba(255, 255, 0, 0.775);
+}
